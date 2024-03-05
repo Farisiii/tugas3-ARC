@@ -1,0 +1,15 @@
+Axios adalah pustaka sumber terbuka yang membantu Anda melakukan permintaan data (HTTP request) dengan mudah di aplikasi JavaScript. Baik Anda membangun aplikasi web di browser ataupun aplikasi server dengan Node.js, Axios siap membantu
+
+Apa yang membuat Axios istimewa?
+
+Ringan: Ukuran filenya kecil, sehingga aplikasi Anda tetap berjalan lancar tanpa beban tambahan.
+Mudah digunakan: Sintaksnya sederhana dan mudah dipahami, bahkan untuk pemula JavaScript.
+Promises-based: Mendukung penggunaan promises untuk menangani operasi asynchronous dengan lebih rapi.
+Fitur lengkap: Mendukung berbagai metode HTTP, headers, dan body requests untuk kebutuhan Anda yang beragam.
+Kontrol penuh: Anda dapat mencegat dan membatalkan requests yang sedang berlangsung, memberikan fleksibilitas dan kontrol yang lebih besar.
+Bayangkan:
+
+Mengambil data dari API eksternal untuk menampilkan informasi terbaru di aplikasi web Anda.
+Mengirim data ke server untuk menyimpan informasi pengguna.
+Memperbarui data secara real-time tanpa perlu memuat ulang halaman.
+Dengan Axios, semua itu menjadi mudah!
