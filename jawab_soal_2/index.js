@@ -12,7 +12,7 @@ const operations = {
   "/": (a, b) => a / b,
 };
 
-const history = []; // List to store operation history in memory
+const history = [];
 
 const askForOperation = () => {
   return new Promise((resolve) => {
@@ -57,7 +57,6 @@ const calculate = async (operation, a, b) => {
           const result = operations[operation](a, b);
           console.log(`Hasil ${a} ${operation} ${b} adalah ${result}.`);
 
-          // Add operation info to history list
           history.push({
             operation,
             a,
@@ -112,7 +111,7 @@ const askForContinue = () => {
 };
 
 const clearHistory = () => {
-  history.length = 0; // Empty the history array
+  history.length = 0;
   console.log("History telah bersih.");
 };
 
